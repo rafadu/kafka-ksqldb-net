@@ -15,4 +15,3 @@ WHERE type = 'A';
 CREATE STREAM stream_type_b WITH (KAFKA_TOPIC='topic_type_b') AS
 SELECT * FROM input_stream_raw
 WHERE type = 'B';
-
